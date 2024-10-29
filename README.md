@@ -1,40 +1,40 @@
-# محتوى README جاهز للتخصيص وحفظه كملف
+# Predefined README content in English to save as a file
 readme_content = """
 # Routes Bus Dashboard
 
-## مقدمة
-هذا الملف يحتوي على بيانات تحليلية تتعلق بعدد الركاب ومتوسط الركاب لكل رحلة في مسارات الحافلات المختلفة. يمكن استخدامه لتحليل بيانات النقل العام بهدف تحسين كفاءة العمليات.
+## Introduction
+This file provides analytical data regarding passenger numbers and average ridership per trip on various bus routes. It is useful for analyzing public transportation data to enhance operational efficiency.
 
-## محتويات الملف
-الملف يحتوي على أوراق عمل رئيسية كالتالي:
+## File Contents
+The file contains the following main worksheets:
 
 1. **Data Set**
-   - تحتوي على بيانات بعدد الركاب الكلي، وعدد الحافلات، وعدد الرحلات، ومتوسط عدد الركاب لكل رحلة.
-   - الأعمدة الرئيسية:
-     - `Route`: اسم المسار أو الرقم
-     - `Sum of Riders`: مجموع عدد الركاب
-     - `Total Buses`: إجمالي عدد الحافلات
-     - `Total Trips`: إجمالي عدد الرحلات
-     - `Avg Riders per Trip`: متوسط عدد الركاب لكل رحلة
-     - `Avg Riders per Bus`: متوسط عدد الركاب لكل حافلة
+   - Contains data on total ridership, number of buses, number of trips, and the average number of riders per trip.
+   - Key columns:
+     - `Route`: The name or number of the bus route
+     - `Sum of Riders`: The total number of riders
+     - `Total Buses`: The total number of buses
+     - `Total Trips`: The total number of trips
+     - `Avg Riders per Trip`: The average number of riders per trip
+     - `Avg Riders per Bus`: The average number of riders per bus
 
 2. **Dashboard**
-   - ورقة عمل يمكن استخدامها لعرض البيانات بشكل مرئي، سواء عبر الرسوم البيانية أو المخططات.
+   - A worksheet that can be used to visualize the data, either through charts or graphs.
 
-## كيفية الاستخدام
-- **تنظيف البيانات**: تأكد من ترتيب البيانات بشكل صحيح في ورقة "Data Set" وتحديث القيم عند الحاجة.
-- **إعداد الرسوم البيانية**: يمكنك استخدام ورقة "Dashboard" لإعداد رسوم بيانية من البيانات المتوفرة لتحليل أسهل.
-- **تحليل المسارات**: يوفر الملف معلومات حول أعداد الركاب لمختلف المسارات، مما يسمح بمراقبة المسارات الأكثر استخدامًا.
+## Usage Instructions
+- **Data Cleaning**: Ensure that the data is properly organized in the "Data Set" worksheet and update values as necessary.
+- **Setting Up Visuals**: Use the "Dashboard" worksheet to set up charts and graphs for easier analysis.
+- **Route Analysis**: This file includes insights on ridership across different routes, allowing for tracking of the most frequently used routes.
 
-## الاستخدامات المتوقعة
-يعد هذا الملف مفيدًا لإدارة عمليات النقل العام وتقديم رؤى حول الأداء من خلال متابعة الركاب وعدد الرحلات، ويدعم اتخاذ القرارات لتحسين الخدمة وتطوير المسارات.
+## Potential Uses
+This file is valuable for managing public transportation operations and provides insights into performance by tracking ridership, trip numbers, and efficiency. It supports decision-making for service improvement and route development.
 
-## تحديث البيانات
-يمكن تحديث بيانات ورقة "Data Set" بمرور الوقت لتعكس التغييرات في عدد الركاب وأداء الحافلات.
+## Data Updates
+The "Data Set" worksheet can be updated periodically to reflect changes in ridership and bus performance over time.
 """
 
-# حفظ المحتوى في ملف README.md
+# Save the content to a README.md file
 with open("README.md", "w", encoding="utf-8") as file:
     file.write(readme_content)
 
-print("تم إنشاء ملف README.md بنجاح بوصف محتويات ملف Excel.")
+print("README.md file created successfully with the description of the Excel file contents.")
